@@ -1,0 +1,5 @@
+﻿  NTP PROTOCOL.cpp
+c:\users\miracle\downloads\telegram desktop\рис\рис\рис\lab_1\ntp protocol\ntp protocol\ntp protocol.cpp(26): warning C4307: *: переполнение целой константы
+c:\users\miracle\downloads\telegram desktop\рис\рис\рис\lab_1\ntp protocol\ntp protocol\ntp protocol.cpp(43): warning C4309: =: усечение константного значения
+c:\users\miracle\downloads\telegram desktop\рис\рис\рис\lab_1\ntp protocol\ntp protocol\ntp protocol.cpp(56): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  NTP PROTOCOL.vcxproj -> C:\Users\Miracle\Downloads\Telegram Desktop\РИС\РИС\РИС\lab_1\NTP PROTOCOL\Debug\NTP PROTOCOL.exe

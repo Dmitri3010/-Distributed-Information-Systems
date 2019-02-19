@@ -1,0 +1,20 @@
+﻿Сборка начата 04.11.2015 10:26:22.
+     1>Проект "E:\My files\Программирование сетевых приложений\Лабораторные работы\Lab_03\ServerU\ServerU\ServerU.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\ServerU.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\ServerU.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ServerU.cpp
+         ServerU.cpp
+     1>ServerU.cpp(116): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\Winsock2.h(1868): см. объявление "inet_ntoa"
+       Link:
+         C:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\My files\Программирование сетевых приложений\Лабораторные работы\Lab_03\ServerU\Release\ServerU.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\My files\Программирование сетевых приложений\Лабораторные работы\Lab_03\ServerU\Release\ServerU.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\My files\Программирование сетевых приложений\Лабораторные работы\Lab_03\ServerU\Release\ServerU.lib" /MACHINE:X86 /SAFESEH Release\ServerU.obj
+         Release\stdafx.obj
+         Создание кода
+         Создание кода завершено
+     1>LINK : fatal error LNK1207: несовместимый формат PDB в "E:\My files\Программирование сетевых приложений\Лабораторные работы\Lab_03\ServerU\Release\ServerU.pdb"; удалите и перестройте
+     1>Сборка проекта "E:\My files\Программирование сетевых приложений\Лабораторные работы\Lab_03\ServerU\ServerU\ServerU.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:05.55
