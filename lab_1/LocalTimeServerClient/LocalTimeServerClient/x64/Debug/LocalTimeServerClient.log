@@ -1,0 +1,18 @@
+﻿Сборка начата 30.09.2016 8:14:26.
+     1>Проект "D:\Учеба\РИС\LocalTimeServerClient\LocalTimeServerClient\LocalTimeServerClient.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt LocalTimeServerClient.cpp stdafx.cpp
+         stdafx.cpp
+         LocalTimeServerClient.cpp
+     1>LocalTimeServerClient.cpp(85): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+     1>LocalTimeServerClient.cpp(86): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Учеба\РИС\LocalTimeServerClient\x64\Debug\LocalTimeServerClient.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Учеба\РИС\LocalTimeServerClient\x64\Debug\LocalTimeServerClient.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Учеба\РИС\LocalTimeServerClient\x64\Debug\LocalTimeServerClient.lib" /MACHINE:X64 x64\Debug\LocalTimeServerClient.obj
+         x64\Debug\stdafx.obj
+         LocalTimeServerClient.vcxproj -> D:\Учеба\РИС\LocalTimeServerClient\x64\Debug\LocalTimeServerClient.exe
+     1>Сборка проекта "D:\Учеба\РИС\LocalTimeServerClient\LocalTimeServerClient\LocalTimeServerClient.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:05.61

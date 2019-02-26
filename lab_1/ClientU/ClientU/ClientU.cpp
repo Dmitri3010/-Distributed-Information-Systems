@@ -95,7 +95,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	GETSINCHRO getsincro, setsincro;
 	ZeroMemory(&setsincro, sizeof(setsincro));
 	ZeroMemory(&getsincro, sizeof(getsincro));
-	getsincro.cmd = "SINC";
+	getsincro.cmd = "ASINC";
 	getsincro.curvalue = 0;
 
 

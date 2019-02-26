@@ -102,7 +102,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	ZeroMemory(&setsincro, sizeof(setsincro));
 	ZeroMemory(&getsincro, sizeof(getsincro));
 
-	setsincro.cmd = "SINCRO";
+	setsincro.cmd = "ASINCRO";
 	setsincro.correction = 0;
 	
 	clock_t c;
@@ -142,7 +142,10 @@ int _tmain(int argc, _TCHAR* argv[])
 				c = clock();
 				setsincro.correction = c - getsincro.correction;
 				averageCorrection[count - 1] = c - getsincro.correction;
-				average = setAverageCorrection(averageCorrection, count);
+				if (count > 2) {
+					average = setAverageCorrection(averageCorrection, count);
+				}
+				
 				sendto(sS, (char *)&setsincro, sizeof(setsincro), 0, (sockaddr*)&client, sizeof(client));
 				
 				cout << count <<" "<<"время "<<c<<" "<< inet_ntoa(client.sin_addr) << " correction = " << setsincro.correction << ", avgCorrection = " << average << endl;

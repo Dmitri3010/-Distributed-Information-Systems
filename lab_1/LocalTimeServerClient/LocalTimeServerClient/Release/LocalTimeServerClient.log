@@ -1,0 +1,12 @@
+﻿  LocalTimeServerClient.cpp
+d:\projects\university\рис\lab_1\localtimeserverclient\localtimeserverclient\localtimeserverclient.cpp(85): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+d:\projects\university\рис\lab_1\localtimeserverclient\localtimeserverclient\localtimeserverclient.cpp(86): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+d:\projects\university\рис\lab_1\localtimeserverclient\localtimeserverclient\localtimeserverclient.cpp(58): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h(1831): note: see declaration of 'inet_addr'
+  stdafx.cpp
+  Generating code
+  138 of 142 functions (97.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  LocalTimeServerClient.vcxproj -> D:\Projects\University\РИС\lab_1\LocalTimeServerClient\Release\LocalTimeServerClient.exe

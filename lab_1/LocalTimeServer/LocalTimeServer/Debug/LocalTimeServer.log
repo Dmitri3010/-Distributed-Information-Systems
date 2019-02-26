@@ -1,0 +1,8 @@
+﻿  LocalTimeServer.cpp
+d:\projects\university\рис\lab_1\localtimeserver\localtimeserver\localtimeserver.cpp(56): warning C4307: '*': integral constant overflow
+d:\projects\university\рис\lab_1\localtimeserver\localtimeserver\localtimeserver.cpp(75): warning C4309: '=': truncation of constant value
+d:\projects\university\рис\lab_1\localtimeserver\localtimeserver\localtimeserver.cpp(62): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h(1831): note: see declaration of 'inet_addr'
+  stdafx.cpp
+  Generating Code...
+  LocalTimeServer.vcxproj -> D:\Projects\University\РИС\lab_1\LocalTimeServer\Debug\LocalTimeServer.exe
